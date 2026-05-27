@@ -31,3 +31,12 @@ HOW TO USE
 NOTES
 - The contact form is front-end only until you connect a form backend or form service.
 - site-mockup-reference.png is included as a visual reference only.
+
+
+VERSION 4 CLEAN / READABLE UPDATE
+- Hero section reduced in height.
+- Hero headline and logo lockup reduced.
+- Services cards made smaller and cleaner.
+- Process cards adjusted so text is easier to read and less vertically stretched.
+- Mobile layout retained.
+- Contact email remains pking@ironstarapps.com.
