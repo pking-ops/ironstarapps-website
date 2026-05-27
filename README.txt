@@ -1,27 +1,33 @@
-IRON STAR APPS WEBSITE - IMAGE 2 MATCH VERSION
+IRON STAR APPS - FINAL PAGE PACKAGE
 
-This package is rebuilt to visually match the approved mockup much more closely,
-while still being a responsive real website for desktop, tablet, and mobile.
+This version uses the generated cinematic hero art as the actual hero background,
+with cleaner text sizing and a more polished, less clunky layout.
 
-FILES
+WHAT IS INCLUDED
 - index.html
 - styles.css
 - script.js
 - iron-star-apps-shield-logo-header.png
-- favicon.png
+- hero-bg.png
+- site-mockup-reference.png
 
-REAL CONTACT INFO USED
+REAL CONTACT INFO
 - Phone: (254) 447-0217
-- Email: info@ironstarapps.com
+- Email: pking@ironstarapps.com
 - Location: Texas, USA
 
-MOBILE / RESPONSIVE
-- Responsive navigation menu included
-- Hero, cards, footer, and form all stack correctly on smaller screens
-- Buttons resize for mobile use
+MOBILE READY
+- Responsive navigation menu
+- Hero section scales down for mobile
+- Cards stack on tablets and phones
+- Footer and contact form reflow correctly
 
-UPLOAD TO GITHUB / VERCEL
+HOW TO USE
 1. Extract the ZIP.
-2. Upload every file inside the folder to your GitHub repository root.
-3. Import the repo into Vercel.
-4. Vercel will deploy it as a static website.
+2. Upload all files inside the folder to your GitHub repo root.
+3. Vercel will redeploy automatically if it is already connected.
+4. If not connected, import the repo into Vercel.
+
+NOTES
+- The contact form is front-end only until you connect a form backend or form service.
+- site-mockup-reference.png is included as a visual reference only.

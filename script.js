@@ -1,17 +1,15 @@
 
-const menuToggle = document.querySelector('.menu-toggle');
-const mainNav = document.querySelector('.main-nav');
-
-if (menuToggle && mainNav) {
-  menuToggle.addEventListener('click', () => {
-    const isOpen = mainNav.classList.toggle('open');
-    menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+const menuButton = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.main-nav');
+if (menuButton && nav) {
+  menuButton.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    menuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
   });
-
-  mainNav.querySelectorAll('a').forEach(link => {
+  nav.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
-      mainNav.classList.remove('open');
-      menuToggle.setAttribute('aria-expanded', 'false');
+      nav.classList.remove('open');
+      menuButton.setAttribute('aria-expanded', 'false');
     });
   });
 }
