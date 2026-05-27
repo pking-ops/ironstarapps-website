@@ -193,14 +193,19 @@
       </div>
 
       <div class="container form-shell" id="contact-form">
-        <form class="card contact-form" onsubmit="return false;">
+        <form class="card contact-form" action="https://formsubmit.co/pking@ironstarapps.com" method="POST">
+          <input type="hidden" name="_subject" value="New Iron Star Apps Website Request" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://ironstarapps.com/thank-you.html" />
+
           <div class="form-grid">
-            <label>Name<input type="text" placeholder="Your name" /></label>
-            <label>Organization<input type="text" placeholder="Church, school, agency, or business" /></label>
-            <label>Service Needed<select><option>Church Safety</option><option>Training</option><option>Consulting / Planning</option><option>Off-Duty Coordination</option></select></label>
-            <label>Email<input type="email" placeholder="name@example.com" /></label>
+            <label>Name<input type="text" name="name" placeholder="Your name" required /></label>
+            <label>Organization<input type="text" name="organization" placeholder="Church, school, agency, or business" required /></label>
+            <label>Service Needed<select name="service_needed" required><option>Church Safety</option><option>Training</option><option>Consulting / Planning</option><option>Off-Duty Coordination</option></select></label>
+            <label>Email<input type="email" name="email" placeholder="name@example.com" required /></label>
           </div>
-          <label class="message-area">Message<textarea rows="5" placeholder="Tell us how Iron Star Apps can help."></textarea></label>
+          <label class="message-area">Message<textarea rows="5" name="message" placeholder="Tell us how Iron Star Apps can help." required></textarea></label>
           <div class="form-actions"><button type="submit" class="btn btn-primary">Request Info</button></div>
         </form>
       </div>

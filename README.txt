@@ -40,3 +40,19 @@ VERSION 4 CLEAN / READABLE UPDATE
 - Process cards adjusted so text is easier to read and less vertically stretched.
 - Mobile layout retained.
 - Contact email remains pking@ironstarapps.com.
+
+
+VERSION 5 BALANCED UPDATE
+- Hero made shorter again and headline reduced.
+- Services cards made less bulky.
+- Process section made more readable with better type sizing.
+- On medium desktop widths, process cards stay wider and can scroll slightly instead of becoming skinny unreadable columns.
+- Mobile layout remains stacked and readable.
+- Public email remains pking@ironstarapps.com.
+
+
+VERSION 6 WORKING FORM UPDATE
+- Contact form now posts to FormSubmit for pking@ironstarapps.com.
+- Added required name attributes to all form fields.
+- Added thank-you.html redirect page after successful submission.
+- First test submission may require confirming/activating the email address through FormSubmit.

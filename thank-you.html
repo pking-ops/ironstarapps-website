@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You | Iron Star Apps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blue:#0d84ff;
+      --blue2:#44a9ff;
+      --muted:#b1c0d8;
+      --line:rgba(41,133,255,.25);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: Inter, Arial, sans-serif;
+      color: #edf5ff;
+      background:
+        radial-gradient(circle at 70% 15%, rgba(13,132,255,.20), transparent 24%),
+        linear-gradient(180deg, #020408 0%, #040911 100%);
+      padding: 24px;
+    }
+    .card {
+      width: min(720px, 100%);
+      padding: 44px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: linear-gradient(180deg, rgba(5,11,18,.98), rgba(3,7,13,.98));
+      box-shadow: 0 24px 58px rgba(0,0,0,.52);
+      text-align: center;
+    }
+    img {
+      width: 82px;
+      height: 82px;
+      margin: 0 auto 22px;
+      filter: drop-shadow(0 0 16px rgba(20,111,255,.24));
+    }
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.05;
+    }
+    p {
+      color: var(--muted);
+      font-size: 1.08rem;
+      line-height: 1.7;
+      margin: 0 0 28px;
+    }
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 20px;
+      border-radius: 3px;
+      border: 1px solid rgba(64,154,255,.5);
+      background: linear-gradient(90deg,#155eff 0%,#0b8aff 100%);
+      color: #fff;
+      text-decoration: none;
+      font-size: .86rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img src="iron-star-apps-shield-logo-header.png" alt="Iron Star Apps logo" />
+    <h1>Thank you.</h1>
+    <p>Your request has been submitted to Iron Star Apps. We’ll review it and get back with you as soon as possible.</p>
+    <a href="/">Back to Home</a>
+  </main>
+</body>
+</html>
