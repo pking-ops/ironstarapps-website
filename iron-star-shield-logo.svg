@@ -1,0 +1,21 @@
+<svg width="240" height="280" viewBox="0 0 240 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldOuter" x1="120" y1="0" x2="120" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F8FF"/>
+      <stop offset="0.46" stop-color="#8893A4"/>
+      <stop offset="1" stop-color="#202834"/>
+    </linearGradient>
+    <linearGradient id="shieldInner" x1="120" y1="34" x2="120" y2="244" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#141B24"/>
+      <stop offset="1" stop-color="#05080F"/>
+    </linearGradient>
+    <linearGradient id="starBlue" x1="120" y1="64" x2="120" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FD2FF"/>
+      <stop offset="0.35" stop-color="#2893FF"/>
+      <stop offset="1" stop-color="#083EDE"/>
+    </linearGradient>
+  </defs>
+  <path d="M120 8L204 41V118C204 187.319 171.857 234.917 120 267C68.1434 234.917 36 187.319 36 118V41L120 8Z" fill="url(#shieldOuter)"/>
+  <path d="M120 28L187 55V118C187 178.628 159.448 220.416 120 246C80.5522 220.416 53 178.628 53 118V55L120 28Z" fill="url(#shieldInner)"/>
+  <path d="M120 64L137.724 100.149L177.511 105.331L148.339 133.457L155.58 173.169L120 154.4L84.4204 173.169L91.6612 133.457L62.4886 105.331L102.276 100.149L120 64Z" fill="url(#starBlue)"/>
+</svg>
