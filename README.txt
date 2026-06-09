@@ -42,3 +42,15 @@ V2 CLEAN HOME PAGE UPDATE
   - Explore Training Options
   - Learn About Iron Star Apps
   - View Church Safety Resources
+
+
+V3 HIGH-QUALITY PHOTO / SERVICES UPDATE
+- Removed low-quality screenshot-crop people images that showed leftover text.
+- Kept only high-quality standalone photos/assets.
+- Rebuilt the About page people section using the clean handshake photo plus text-only readiness cards.
+- Added vague public-facing offer language for services and training.
+- Added Firearms Range Training, Firearms Qualification, and Simmunition / Scenario-Based Training to the Training page.
+- Added Simmunition / Scenario-Based Training and Firearms Qualification to the Contact form dropdown.
+- No prices included.
+- Upload the CONTENTS of this ZIP to the root of the GitHub repo, not the ZIP itself.
+- Delete old npm/build files from GitHub if present: package.json, package-lock.json, vite.config.js, next.config.js, src, public.
