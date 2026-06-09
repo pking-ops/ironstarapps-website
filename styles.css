@@ -328,7 +328,7 @@ img{max-width:100%;display:block}
 }
 .footer-brand-col{display:grid;gap:18px}
 .socials{display:flex;gap:10px;flex-wrap:wrap}
-.socials span{
+.socials span,.socials a{
   display:inline-flex;
   align-items:center;
   justify-content:center;
