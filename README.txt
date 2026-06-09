@@ -54,3 +54,10 @@ V3 HIGH-QUALITY PHOTO / SERVICES UPDATE
 - No prices included.
 - Upload the CONTENTS of this ZIP to the root of the GitHub repo, not the ZIP itself.
 - Delete old npm/build files from GitHub if present: package.json, package-lock.json, vite.config.js, next.config.js, src, public.
+
+
+V4 GALLERY UPDATE
+- Updated About page with a new "Church Safety In Action" gallery section.
+- Added six high-quality standalone gallery images cropped from the approved mockup.
+- Added cards for Welcoming & Observing, Blending Into Service, Monitoring Key Areas, Partnering With Leaders, Coordinating With Law Enforcement, and Church Liaison & Response Familiarization.
+- No package.json or build files included; static HTML/CSS/JS only.
