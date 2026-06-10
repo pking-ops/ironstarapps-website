@@ -61,3 +61,18 @@ V4 GALLERY UPDATE
 - Added six high-quality standalone gallery images cropped from the approved mockup.
 - Added cards for Welcoming & Observing, Blending Into Service, Monitoring Key Areas, Partnering With Leaders, Coordinating With Law Enforcement, and Church Liaison & Response Familiarization.
 - No package.json or build files included; static HTML/CSS/JS only.
+
+
+V5 PERSONAL THANK-YOU / FORMSUBMIT UPDATE
+- Updated contact form to redirect users to https://www.ironstarapps.com/thank-you.html after submission.
+- Added personalized autoresponse message.
+- Added subject line: New Iron Star Apps Church Safety Request.
+- Kept FormSubmit connected to quotes@ironstarapps.com.
+- Updated thank-you.html with a stronger personalized return page.
+
+
+V6 APPRECIATION THANK-YOU UPDATE
+- Removed the extra next-step/form-style layout from the thank-you page.
+- Added a warmer, more appreciative confirmation message.
+- Thank-you page now emphasizes protecting the congregation, leadership, stewardship, and trust.
+- Contact form still redirects to https://www.ironstarapps.com/thank-you.html.
